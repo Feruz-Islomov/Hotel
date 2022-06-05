@@ -1,0 +1,156 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Montserrat:wght@300&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Montserrat:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Gilda+Display&display=swap");
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #f8f5f0;
+
+  /* position: relative; */
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 17x;
+  font-weight: 550;
+  line-height: 1.75em;
+  color: #666;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+.logo {
+  font-family: "Gilda Display", serif;
+}
+.letterspace {
+  letter-spacing: 2px;
+}
+/* navigation bar */
+/* navigation bar */
+/* navigation bar */
+.nvlnk:hover {
+  color: orange;
+  transition: all ease-in 0.2s;
+}
+.nav-item > a:hover {
+  color: orange;
+}
+
+/* slider */
+/* slider */
+/* slider */
+.star {
+  width: 30%;
+  transition: all ease-in 0.3s;
+}
+.sliderbtn {
+  color: orange;
+  font-size: small;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 0;
+  margin-bottom: 100px;
+}
+
+/* checkin */
+/* checkin */
+/* checkin */
+.chkn {
+  background-color: rgb(181, 129, 40);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.checkinput {
+  width: 100%;
+  font-size: x-large;
+}
+/* rooms & suits */
+/* rooms & suits */
+/* rooms & suits */
+
+/* uicard */
+/* uicard */
+/* uicard */
+.roomsimg {
+  max-width: 100%;
+}
+.ui-card {
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  background: radial-gradient(#111 50%, #000 100%);
+}
+
+.ui-card img {
+  transform: scale(1.3);
+  transition: all 0.3s ease-out;
+}
+.ui-card:hover img {
+  transform: scale(1.6) translateY(-30px);
+  opacity: 0.7;
+}
+.ui-card .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  /* text-align: center; */
+  color: #fff;
+  font-size: 18px;
+}
+.ui-card .description h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 0 20px;
+  transform: translateY(-40px);
+  /* opacity: 0; */
+  transition: all 0.3s ease-out;
+}
+.ui-card > .desc {
+  transform: translateY(45px);
+  /* opacity: 0; */
+  transition: all 0.3s ease-out;
+}
+.ui-card:hover .desc {
+  transform: translateY(0);
+  transition: all 0.2s ease-out;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.rtype::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 10%;
+  top: 86px;
+  left: 15px;
+  background-color: rgb(82, 79, 79);
+  transition: all 0.5s ease-in;
+}
+.ui-card:hover .rtype::after {
+  width: 95%;
+}
+i {
+  margin: 0 5px;
+}
+/* ///////////////////////////////////// */
+@media only screen and (min-width: 1200px) {
+  .sliderbtn {
+    margin-bottom: 250px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .whitecolor {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #f8f5f0;
+  }
+
+  .hdr {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+}

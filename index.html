@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Reg Hotel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="hdr">
+      <div class="container-md">
+        <header class="d-flex justify-content-between py-3 mb-4 border-bottom">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-warning text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap" />
+            </svg>
+            <span class="fs-4 logo">Reg Hotel</span>
+          </a>
+
+          <nav
+            class="navbar navbar-expand-md navbar-dark"
+            aria-label="Third navbar example"
+          >
+            <div class="container-fluid">
+              <span></span>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarsExample03"
+                aria-controls="navbarsExample03"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      ><div class="nvlnk">HOME</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"
+                      ><div class="nvlnk">ABOUT</div></a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link active dropdown-toggle"
+                      href="#"
+                      id="dropdown03"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >ROOMS</a
+                    >
+                    <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                      <li>
+                        <a class="dropdown-item" href="#">Action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"
+                      ><div class="nvlnk">RESTAURANT</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"
+                      ><div class="nvlnk">GALLERY</div></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"
+                      ><div class="nvlnk">CONTACT</div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </div>
+    <!-- slider -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./18.webp" class="d-block w-100" alt="..." />
+          <div class="carousel-caption mb-5 d-none d-md-block">
+            <img class="star" src="./star.png" alt="name" />
+            <p>LUXURY HOTEL & BEST RESORT</p>
+            <h1 class="logo letterspace scomment">ENJOY A LUXURY EXPERIENCE</h1>
+            <button class="btn btn-outline-secondary sliderbtn">
+              ROOMS & SUITS
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./2.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption mb-5 d-none d-md-block">
+            <img class="star" src="./star.png" alt="name" />
+            <p>UNIQUE PLACE TO RELAX & ENJOY</p>
+            <h1 class="logo letterspace scomment">THE PERFECT BASE FOR YOU</h1>
+            <button class="btn btn-outline-secondary sliderbtn">
+              ROOMS & SUITS
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./14.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption mb-5 d-none d-md-block">
+            <img class="star" src="./star.png" alt="name" />
+            <p>THE ULTIMATE LUXURY EXPERIENCE</p>
+            <h1 class="logo letterspace scomment">
+              ENJOY THE BEST MOMENTS OF LIFE
+            </h1>
+            <button class="btn btn-outline-secondary sliderbtn">
+              ROOMS & SUITS
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- checkinbox -->
+    <div class="container-md p-3 chkn">
+      <form>
+        <div class="row h-100">
+          <div class="col-md-3">
+            <label class="text-dark">CHECK-IN</label>
+            <input
+              type="date"
+              id="checkin"
+              class="checkinput"
+              placeholder=" CHECK-IN: "
+              name="date"
+            />
+          </div>
+          <div class="col-md-3">
+            <label class="text-dark">CHECK-OUT</label>
+            <input
+              type="date"
+              id="checkout"
+              class="checkinput"
+              placeholder=" CHECK-OUT: "
+              name="date"
+            />
+          </div>
+          <div class="col-md-2">
+            <label class="text-dark">ADULTS</label>
+            <input
+              type="number"
+              id="checkin"
+              class="checkinput"
+              placeholder=" ADULTS: "
+              name="number"
+            />
+          </div>
+          <div class="col-md-2">
+            <label class="text-dark">CHILDREN</label>
+            <input
+              type="number"
+              id="checkin"
+              class="checkinput"
+              placeholder=" CHILDREN: "
+              name="number"
+            />
+          </div>
+          <div class="col-md-2">
+            <input
+              type="button"
+              id="checkin"
+              class="text-dark h-100 w-100 h5"
+              value="Check Availability"
+              name="number"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- room & suits -->
+    <div class="container-md rooms">
+      <div class="row text-dark">
+        <div class="letterspace whitecolor">THE REG LUXURY HOTEL</div>
+        <div class="logo display-5 whitecolor">Rooms & Suites</div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md m-3 ui-card">
+          <img class="roomsimg" src="./9.jpg" />
+          <div class="description desc">
+            <h5>150$ / NIGHT</h5>
+            <div class="rtype logo h2">Junior Suite</div>
+            <div class="rsicons d-flex justify-content-between">
+              <div>
+                <i class="fas fa-solid fa-bath"></i
+                ><i class="fas fa-solid fa-restroom"></i>
+                <i class="fas fa-solid fa-wifi"></i>
+                <i class="fas fa-tv"></i>
+              </div>
+              <div>
+                DETAILS
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md m-3 ui-card">
+          <img class="roomsimg" src="./9.jpg" />
+          <div class="description desc">
+            <h5>200$ / NIGHT</h5>
+            <div class="rtype logo h2">Family Room</div>
+            <div class="rsicons d-flex justify-content-between">
+              <div>
+                <i class="fas fa-solid fa-bath"></i
+                ><i class="fas fa-solid fa-restroom"></i>
+                <i class="fas fa-solid fa-wifi"></i>
+                <i class="fas fa-tv"></i>
+              </div>
+              <div>
+                DETAILS
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md m-3 ui-card">
+          <img class="roomsimg" src="./9.jpg" />
+          <div class="description desc">
+            <h5>250$ / NIGHT</h5>
+            <div class="rtype logo h2">Double Room</div>
+            <div class="rsicons d-flex justify-content-between">
+              <div>
+                <i class="fas fa-solid fa-bath"></i
+                ><i class="fas fa-solid fa-restroom"></i>
+                <i class="fas fa-solid fa-wifi"></i>
+                <i class="fas fa-tv"></i>
+              </div>
+              <div>
+                DETAILS
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="description">
+            <h3>Mountain Morning</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod.
+            </p>
+            <a href="#">Read More</a>
+          </div> -->
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md m-3 ui-card">
+          <img class="roomsimg" src="./12.jpg" />
+          <div class="description desc">
+            <h5>350$ / NIGHT</h5>
+            <div class="rtype logo h2">Deluxe Room</div>
+            <div class="rsicons d-flex justify-content-between">
+              <div>
+                <i class="fas fa-solid fa-bath"></i
+                ><i class="fas fa-solid fa-restroom"></i>
+                <i class="fas fa-solid fa-wifi"></i>
+                <i class="fas fa-tv"></i>
+              </div>
+              <div>
+                DETAILS
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md m-3 ui-card">
+          <img class="roomsimg" src="./12.jpg" />
+          <div class="description desc">
+            <h5>550$ / NIGHT</h5>
+            <div class="rtype logo h2">Superior Room</div>
+            <div class="rsicons d-flex justify-content-between">
+              <div>
+                <i class="fas fa-solid fa-bath"></i
+                ><i class="fas fa-solid fa-restroom"></i>
+                <i class="fas fa-solid fa-wifi"></i>
+                <i class="fas fa-tv"></i>
+              </div>
+              <div>
+                DETAILS
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container-md rooms">
+      <div class="row text-dark">
+        <div class="letterspace">THE REG LUXURY HOTEL</div>
+        <div class="logo display-5">Rooms & Suites</div>
+      </div>
+      <div class="row h-50">
+        <div class="col-md-4">
+          <img class="roomimg2" src="./9.jpg" />
+        </div>
+        <div class="col-md-4">
+          <img class="roomimg2" src="./9.jpg" />
+        </div>
+        <div class="col-md-4">
+          <img class="roomimg2" src="./9.jpg" />
+        </div>
+      </div>
+      <div class="row h-50">
+        <div class="col-md-6"><img class="roomimg" src="./16.jpg" /></div>
+        <div class="col-md-6"><img class="roomimg" src="./16.jpg" /></div>
+      </div>
+    </div> -->
+
+    <!-- <div class="container">
+      <div class="row d-flex flex-row">
+        <div class="d-flex flex-column w-50">
+          <img src="./2.png" />
+          <img src="./4.jpg" />
+          <img src="./16.jpg" />
+          <img src="./18.webp" />
+          <img src="./6.jpg" />
+          <img src="./7.jpg" />
+          <img src="./12.jpg" />
+          <img src="./13.jpg" />
+          <img src="./14.jpg" />
+        </div>
+        <div class="d-flex flex-column w-25">
+          <img src="./1.jpg" />
+          <img src="./3.jpg" />
+          <img src="./5.jpg" />
+          <img src="./8.jpg" />
+          <img src="./9.jpg" />
+          <img src="./10.jpg" />
+          <img src="./11.jpg" />
+        </div>
+        <div class="d-flex flex-column w-25">
+          <img src="./15.jpg" />
+          <img src="./17.jpg" />
+          <img src="./19.jpg" />
+        </div>
+      </div>
+    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
