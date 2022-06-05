@@ -6,9 +6,6 @@ html,
 body {
   box-sizing: border-box;
   margin: 0;
-  background-color: #f8f5f0;
-
-  /* position: relative; */
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 17x;
   font-weight: 550;
@@ -68,6 +65,7 @@ body {
 /* uicard */
 /* uicard */
 /* uicard */
+
 .roomsimg {
   max-width: 100%;
 }
@@ -97,14 +95,7 @@ body {
   color: #fff;
   font-size: 18px;
 }
-.ui-card .description h3 {
-  font-weight: 700;
-  font-size: 32px;
-  margin: 0 0 20px;
-  transform: translateY(-40px);
-  /* opacity: 0; */
-  transition: all 0.3s ease-out;
-}
+
 .ui-card > .desc {
   transform: translateY(45px);
   /* opacity: 0; */
@@ -152,5 +143,13 @@ i {
     position: absolute;
     z-index: 1;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .ui-card > .uper {
+    transform: translateY(73px);
+    /* opacity: 0; */
+    transition: all 0.3s ease-out;
   }
 }
