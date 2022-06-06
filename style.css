@@ -123,6 +123,14 @@ body {
 i {
   margin: 0 5px;
 }
+
+/* extra services */
+/* extra services */
+/* extra services */
+.service {
+  height: 550px;
+  background-color: #222222;
+}
 /* ///////////////////////////////////// */
 @media only screen and (min-width: 1200px) {
   .sliderbtn {
