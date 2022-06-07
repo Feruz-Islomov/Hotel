@@ -51,10 +51,14 @@ body {
 /* checkin */
 /* checkin */
 /* checkin */
+.checkinbox {
+  background-color: rgba(181, 129, 40, 0.651);
+}
 .chkn {
   background-color: rgb(181, 129, 40);
-  margin-top: 20px;
-  margin-bottom: 30px;
+  /* margin-top: 20px;
+  margin-bottom: 30px; */
+  /* height: 90px; */
 }
 .checkinput {
   width: 100%;
@@ -169,8 +173,30 @@ a::selection {
 }
 
 .footer {
-  height: 500px;
+  /* height: 500px; */
   background-color: #222222;
+}
+button {
+  border: none;
+  outline: none;
+}
+.email {
+  /* border: 2px; */
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 2px solid #b59469;
+}
+.socialsite {
+  cursor: pointer;
+}
+.explorediv > div:hover {
+  cursor: pointer;
+  margin-left: 3px;
+  transition: all ease-in 0.2s;
+}
+.copyright {
+  background-color: #1e1e1e;
+  font-size: small;
 }
 /* ///////////////////////////////////// */
 @media only screen and (min-width: 1200px) {
