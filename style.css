@@ -19,6 +19,15 @@ body {
 .letterspace {
   letter-spacing: 2px;
 }
+.letterspace2 {
+  letter-spacing: 6px;
+}
+.sitecolor {
+  color: #b59469;
+}
+.sitebackcolor {
+  background-color: #b59469;
+}
 /* navigation bar */
 /* navigation bar */
 /* navigation bar */
@@ -54,15 +63,32 @@ body {
 .checkinbox {
   background-color: rgba(181, 129, 40, 0.651);
 }
-.chkn {
-  background-color: rgb(181, 129, 40);
-  /* margin-top: 20px;
-  margin-bottom: 30px; */
-  /* height: 90px; */
-}
-.checkinput {
+.chkn > input {
   width: 100%;
-  font-size: x-large;
+  padding: 15px 5px;
+  outline: none;
+  border: none;
+  margin: 0 1px 1px 0;
+}
+.checkinbtn {
+  color: white;
+  background-color: #b59469;
+  transition: all ease-in 0.2s;
+}
+.checkinbtn:hover {
+  background-color: #000;
+}
+.checkin {
+  background-image: url("./calendar.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 14px;
 }
 /* rooms & suits */
 /* rooms & suits */

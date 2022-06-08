@@ -178,62 +178,55 @@
       </div>
     </div>
     <!-- checkinbox -->
+
     <div class="checkinbox">
-      <div class="container-md p-3">
+      <div class="container-md py-5">
         <div class="row">
           <div class="letterspace text-white">CHECK NOW</div>
           <div class="display-5 logo text-light">Search Rooms</div>
         </div>
-        <div class="row chkn p-3">
-          <div class="col-md-3">
-            <label class="text-dark">CHECK-IN</label>
-            <input
-              type="date"
-              id="checkin"
-              class="checkinput"
-              placeholder=" CHECK-IN: "
-              name="date"
-            />
-          </div>
-          <div class="col-md-3">
-            <label class="text-dark">CHECK-OUT</label>
-            <input
-              type="date"
-              id="checkout"
-              class="checkinput"
-              placeholder=" CHECK-OUT: "
-              name="date"
-            />
-          </div>
-          <div class="col-md-2">
-            <label class="text-dark">ADULTS</label>
-            <input
-              type="number"
-              id="checkin"
-              class="checkinput"
-              placeholder=" ADULTS: "
-              name="number"
-            />
-          </div>
-          <div class="col-md-2">
-            <label class="text-dark">CHILDREN</label>
-            <input
-              type="number"
-              id="checkin"
-              class="checkinput"
-              placeholder=" CHILDREN: "
-              name="number"
-            />
-          </div>
-          <div class="col-md-2">
-            <input
-              type="button"
-              id="checkin"
-              class="text-dark h-100 w-100 h5"
-              value="Check Availability"
-              name="number"
-            />
-          </div>
+        <div
+          class="my-3 chkn d-md-flex d-sm-flex flex-sm-column flex-md-row justify-content-between"
+        >
+          <input
+            type="date"
+            id="checkin"
+            class="checkin"
+            placeholder="CHECK-IN: "
+            name="date"
+          />
+
+          <input
+            type="date"
+            id="checkout"
+            class="checkin"
+            placeholder="CHECK-OUT: "
+            name="date"
+          />
+
+          <input
+            type="number"
+            id="checkin"
+            class=""
+            placeholder=" ADULTS: "
+            name="number"
+          />
+
+          <input
+            type="number"
+            id="checkin"
+            class=""
+            placeholder=" CHILDREN: "
+            name="number"
+          />
+
+          <input
+            type="button"
+            id="checkin"
+            class="checkinbtn"
+            value="CHECK NOW"
+            name="number"
+          />
         </div>
       </div>
     </div>
@@ -416,7 +409,7 @@
       <div class="container-md h-100">
         <div class="row h-100">
           <div class="col-md-4 my-5">
-            <div class="letterspace text-warning">BEST PRICES</div>
+            <div class="letterspace2 text-warning">BEST PRICES</div>
             <div class="display-5 logo text-light">Extra Services</div>
             <p class="text-white-50">
               The best prices for your relaxing vacation. The utanislen quam
@@ -446,46 +439,60 @@
             </div>
           </div>
           <div
-            class="col-md-8 d-flex flex-row align-items-center justify-content-around"
+            class="col-md-8 d-flex flex-row align-items-center justify-content-around my-5"
           >
-            <div class="card" style="width: 300px">
-              <img
-                class="card-img-top cardimg"
-                src="../r1.jpg"
-                alt="Card image"
-                style="width: 100%"
-              />
-              <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">
-                  Some example text some example text. John Doe is an architect
-                  and engineer
-                </p>
-                <p class="card-text">
-                  Some example text some example text. John Doe is an architect
-                  and engineer
-                </p>
-                <a href="#" class="btn btn-primary">See Profile</a>
-              </div>
-            </div>
-            <div class="card" style="width: 300px">
+            <div class="card">
               <img
                 class="card-img-top cardimg"
                 src="./r2.jpg"
                 alt="Card image"
                 style="width: 100%"
               />
-              <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">
-                  Some example text some example text. John Doe is an architect
-                  and engineer
-                </p>
-                <p class="card-text">
-                  Some example text some example text. John Doe is an architect
-                  and engineer
-                </p>
-                <a href="#" class="btn btn-primary">See Profile</a>
+              <div class="card-body m-2">
+                <h4 class="card-title logo my-2">Safe & Secure</h4>
+                <div class="my-3">
+                  <span class="h1 logo sitecolor">$15</span>
+                  /daily
+                </div>
+                <div class="card-text">
+                  <i class="fas fa-check me-2 sitecolor"></i>Security example
+                  text some.
+                </div>
+                <div class="card-text">
+                  <i class="fas fa-check me-2 sitecolor"></i>Some example text
+                  some example.
+                </div>
+                <div class="card-text">
+                  <i class="fas fa-times h5 me-2"></i> Safety example text some
+                  example.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top cardimg"
+                src="../r1.jpg"
+                alt="Card image"
+                style="width: 100%"
+              />
+              <div class="card-body m-2">
+                <h4 class="card-title logo my-2">Room cleaning</h4>
+                <div class="my-3">
+                  <span class="h1 logo sitecolor">$50</span>
+                  /month
+                </div>
+                <div class="card-text">
+                  <i class="fas fa-check me-2 sitecolor"></i>Security example
+                  text some.
+                </div>
+                <div class="card-text">
+                  <i class="fas fa-check me-2 sitecolor"></i>Some example text
+                  some example.
+                </div>
+                <div class="card-text">
+                  <i class="fas fa-times h5 me-2"></i> Safety example text some
+                  example.
+                </div>
               </div>
             </div>
           </div>
@@ -599,9 +606,15 @@
               elementum sesue the aucan vestibulum aliquam justo in sapien
               rutrum volutpat.
             </p>
-            <button type="button" class="btn btn-dark p-3">
+            <!-- <button type="button" class="btn btn-dark p-3">
               English <i class="fas fa-globe mx-2"></i>
-            </button>
+            </button> -->
+            <select class="btn btn-dark p-3 align-items-left">
+              <option selected>English</option>
+              <option value="1">Russian</option>
+              <option value="2">Japanese</option>
+              <option value="3">Uzbek</option>
+            </select>
           </div>
           <div class="col-3 my-5">
             <div class="text-white logo h4 mb-3">Explore</div>
