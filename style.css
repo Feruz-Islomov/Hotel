@@ -31,6 +31,7 @@ body {
 /* navigation bar */
 /* navigation bar */
 /* navigation bar */
+
 .nvlnk:hover {
   color: orange;
   transition: all ease-in 0.2s;
@@ -41,6 +42,7 @@ body {
 .dropdown-menu {
   background-color: #b59469;
 }
+
 /* slider */
 /* slider */
 /* slider */
@@ -74,6 +76,7 @@ body {
   color: white;
   background-color: #b59469;
   transition: all ease-in 0.2s;
+  cursor: pointer;
 }
 .checkinbtn:hover {
   background-color: #000;
@@ -93,7 +96,10 @@ body {
 /* rooms & suits */
 /* rooms & suits */
 /* rooms & suits */
-
+a {
+  text-decoration: none;
+  color: white;
+}
 /* uicard */
 /* uicard */
 /* uicard */
@@ -224,6 +230,62 @@ button {
   background-color: #1e1e1e;
   font-size: small;
 }
+
+/* room specifics */
+/* room specifics */
+/* room specifics */
+.roombg {
+  background-color: #f1e4c046;
+  padding: 25px 25px;
+}
+.checkicon {
+  margin-right: 15px;
+}
+
+/* contact */
+/* contact */
+/* contact */
+.contact {
+  height: 450px;
+  background-image: url("./cont.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  /* transform: scale(1.2); */
+}
+.contactext {
+  margin: 150px 0;
+}
+.contactinside {
+  padding-left: 10%;
+  padding-top: 20%;
+}
+.contactinput {
+  margin: 15px 10px 15px 0;
+  border: none;
+  /* background-color: #f8f9fa; */
+  padding: 5px;
+  outline: none;
+  border-bottom: 1px solid #b59469;
+  transition: all ease-in 0.19s;
+}
+.contactinput:focus {
+  box-shadow: 0 0 5px 1px #666;
+}
+/* gallery */
+/* gallery */
+/* gallery */
+.gallery {
+  height: 450px;
+  background-image: url("./reg.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.galleryimg {
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: zoom-in;
+}
+
 /* ///////////////////////////////////// */
 @media only screen and (min-width: 1200px) {
   .sliderbtn {
@@ -236,6 +298,9 @@ button {
   }
   .facitems > div {
     width: 95%;
+  }
+  .hdr {
+    background-color: #000;
   }
 }
 @media only screen and (min-width: 768px) {
